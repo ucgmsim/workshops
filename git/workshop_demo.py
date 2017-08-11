@@ -7,6 +7,7 @@ def print_names():
 		for line in fp:
 			print line
         files = glob.glob("names_dir/*")
+	print "People who are in progress in the workshop are:"
         for file in files:
             print os.path.basename(file)
 
